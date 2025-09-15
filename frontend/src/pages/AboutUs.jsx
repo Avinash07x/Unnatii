@@ -3,7 +3,7 @@ import R from "../assets/R.png";
 import vijayji from "../assets/vijayji.png";
 import shiv from "../assets/shiv.jpg";
 import ENCLAVE from "../assets/ENCLAVE.jpg";
-import Testimonials from "../components/Testimonials.JSX";
+import Testimonials from "../components/Testimonials.jsx";
 import FAQ from "../components/FAQ";
 
 export default function AboutUs() {
