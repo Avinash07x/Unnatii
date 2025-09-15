@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Properties from '../components/Properties'
-import Testimonials from '../components/Testimonials.JSX'
+import Testimonials from '../components/Testimonials.jsx'
 import FAQ from '../components/FAQ'
 
 
