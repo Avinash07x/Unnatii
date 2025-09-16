@@ -68,22 +68,6 @@ export default function UnnatiiResidency() {
             Smart Studio Apartment Investment Opportunity
           </p>
         </div>
-
-        {/* Floating Stats */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-8 text-white">
-          <div className="text-center">
-            <div className="text-3xl font-bold">8649</div>
-            <div className="text-sm opacity-80">Sq Yards Available</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">19000</div>
-            <div className="text-sm opacity-80">Project Area</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">30-200</div>
-            <div className="text-sm opacity-80">Road Widths</div>
-          </div>
-        </div>
       </div>
 
       {/* Key Features */}

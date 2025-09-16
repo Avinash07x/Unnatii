@@ -110,7 +110,7 @@ export default function Footer() {
             Hi 👋, how can we help you today?
           </p>
           <a
-            href="https://wa.me/918302573727"
+            href="https://wa.me/919887716393"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full bg-green-500 text-white text-center py-2 rounded-lg hover:bg-green-600 transition"

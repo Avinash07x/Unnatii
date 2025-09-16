@@ -66,22 +66,9 @@ export default function Govindam() {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
             Govindam
           </h1>
-        </div>
-
-        {/* Floating Stats */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-8 text-white">
-          <div className="text-center">
-            <div className="text-3xl font-bold">86</div>
-            <div className="text-sm opacity-80">Plots</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">10648</div>
-            <div className="text-sm opacity-80">Sq Yards</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">90-266</div>
-            <div className="text-sm opacity-80">Plot Sizes</div>
-          </div>
+          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+            Smart Studio Apartment Investment Opportunity
+          </p>
         </div>
       </div>
 
@@ -116,11 +103,10 @@ export default function Govindam() {
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
-                className={`py-4 px-6 font-semibold capitalize whitespace-nowrap transition-colors border-b-2 ${
-                  activeTab === tab
+                className={`py-4 px-6 font-semibold capitalize whitespace-nowrap transition-colors border-b-2 ${activeTab === tab
                     ? "text-blue-600 border-blue-600"
                     : "text-gray-500 border-transparent hover:text-gray-700"
-                }`}
+                  }`}
               >
                 {tab}
               </button>
@@ -263,7 +249,7 @@ export default function Govindam() {
                     className={`w-full h-24 object-cover rounded-xl cursor-pointer transition ${selectedImage === i
                       ? "ring-4 ring-blue-500 shadow-lg"
                       : "hover:shadow-md opacity-80 hover:opacity-100"
-                    }`}
+                      }`}
                     onClick={() => setSelectedImage(i)}
                   />
                 ))}

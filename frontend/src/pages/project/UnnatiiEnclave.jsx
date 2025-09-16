@@ -68,22 +68,6 @@ export default function UnnatiiEnclave() {
             Premium Plot Investment Opportunity in Prime Location
           </p>
         </div>
-
-        {/* Floating Stats */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-8 text-white">
-          <div className="text-center">
-            <div className="text-3xl font-bold">96</div>
-            <div className="text-sm opacity-80">Plots</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">12648</div>
-            <div className="text-sm opacity-80">Sq Yards</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">80-266</div>
-            <div className="text-sm opacity-80">Plot Sizes</div>
-          </div>
-        </div>
       </div>
 
       {/* Key Features Grid */}
